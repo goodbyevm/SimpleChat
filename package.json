@@ -1,0 +1,24 @@
+{
+  "name": "simplechat",
+  "version": "0.0.1",
+  "description": "A simple web chat",
+  "main": "./index.js",
+  "scripts": {
+    "start": "babel-watch index.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-watch": "^2.0.7",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-es2016": "^7.0.0-beta.53",
+    "babel-cli": "^6.26.0",
+    "nodemon": "^1.18.7"
+  }
+}
